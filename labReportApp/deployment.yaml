@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: labreportapp
+  name: labreport-app
 spec:
   selector:
-     matchLabels:
-       app: labreportapp
+    matchLabels:
+      app: labreport-app
   replicas: 1
   template:
     metadata:
       labels:
-        app: labreportapp
+        app: labreport-app
     spec:
-      cantainers:
-        - name: labreportapp
+      containers:
+        - name: labreportapp-app
           image: aktansn/labreportapp:latest
           imagePullPolicy: Always
           ports:
