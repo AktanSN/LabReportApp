@@ -57,29 +57,29 @@ function ViewReport() {
                        
                     
                     <li className='list-group-item'>
-                        <b>Dosya Numarası: {report.fileNumber}</b>
+                        <b>Dosya Numarası: </b>{report.fileNumber}
                     </li>
 
                     <li className='list-group-item'>
-                        <b>Hasta Adı: {report.patientNameSurname}</b>
+                        <b>Hasta Adı: </b>{report.patientNameSurname}
                     </li>
 
                    
 
                     <li className='list-group-item'>
-                        <b>Hasta Kimlik Numarası: {report.patientIdentityNumber}</b>
+                        <b>Hasta Kimlik Numarası: </b>{report.patientIdentityNumber}
                     </li>
 
                     <li className='list-group-item'>
-                        <b>Koyulan Tanı Başlığı: {report.diagnosisTitle}</b>
+                        <b>Koyulan Tanı Başlığı: </b>{report.diagnosisTitle}
                     </li>
 
                     <li className='list-group-item'>
-                        <b>Tanı Detayları: {report.diagnosisDetail}</b>
+                        <b>Tanı Detayları: </b>{report.diagnosisDetail}
                     </li>
 
                     <li className='list-group-item'>
-                        <b>Rapor Verilme Tarihi: {report.reportDate}</b>
+                        <b>Rapor Verilme Tarihi: </b>{report.reportDate}
                     </li>
                     <li className='list-group-item'>
                         <b>Rapor Resmi: </b>

@@ -111,7 +111,7 @@ function AddReport() {
 
                 <div className="mb-3">
                     <input type={"date"} onChange={(e) => onInputChange(e)} value={reportDate} name="reportDate"></input>
-                    {report.reportDate}
+                    
                     </div>
                 <hr></hr>
                 <div className="mb-3">
