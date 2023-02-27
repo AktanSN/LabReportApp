@@ -122,7 +122,7 @@ function AddReport() {
                 
                 
                 <button type="submit" className='btn btn-outline-primary'>Rapor Ekle</button>
-                <Link className='btn btn-outline-danger mx-2' to="/">Geri Dön</Link>
+                <Link className='btn btn-outline-danger mx-2' to="/laborantPage">Geri Dön</Link>
                 </form>
             </div>
         </div>

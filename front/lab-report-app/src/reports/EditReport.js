@@ -67,12 +67,7 @@ function EditReport() {
                     <input type={"text"} className="form-control" placeholder='Hasta adı gir' name="patientNameSurname" value={patientNameSurname} onChange={(e) => onInputChange(e)} ></input>
                 </div>
                 <hr></hr>
-                <div className="mb-3">
-                    <label htmlFor="Email" className="form-label">
-                        Hasta Soyad
-                    </label>
-                    <input type={"text"} className="form-control" placeholder='Hasta soyadı gir' name="patientSurname" value={patientSurname} onChange={(e) => onInputChange(e)} ></input>
-                </div>
+               
                 <hr></hr>
                 <div className="mb-3">
                     <label htmlFor="Email" className="form-label">
@@ -102,7 +97,7 @@ function EditReport() {
 
                 <div className="mb-3">
                 <input type="date" onChange={(e) => onInputChange(e)} value={reportDate} name="reportDate" ></input>
-                <h1>{report.reportDate}</h1>
+                <h4>{report.reportDate}</h4>
                  </div>
                 <hr></hr>
                 
