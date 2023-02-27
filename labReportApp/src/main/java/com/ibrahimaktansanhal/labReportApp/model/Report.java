@@ -47,9 +47,7 @@ public class Report {
     //@JoinColumn(name = "laborant_id")
     //private Laborant laborant;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "laborant_id")
-    private Laborant laborant;
+   
 
 
 }
